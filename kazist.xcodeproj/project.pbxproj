@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BBDA6882BB0C88600DFC874 /* kazistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDA6872BB0C88600DFC874 /* kazistApp.swift */; };
+		2BBDA68A2BB0C88600DFC874 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDA6892BB0C88600DFC874 /* ContentView.swift */; };
+		2BBDA68C2BB0C88700DFC874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBDA68B2BB0C88700DFC874 /* Assets.xcassets */; };
+		2BBDA6902BB0C88700DFC874 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBDA68F2BB0C88700DFC874 /* Preview Assets.xcassets */; };
+		2BBDA69A2BB0C88700DFC874 /* kazistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDA6992BB0C88700DFC874 /* kazistTests.swift */; };
+		2BBDA6A42BB0C88700DFC874 /* kazistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDA6A32BB0C88700DFC874 /* kazistUITests.swift */; };
+		2BBDA6A62BB0C88700DFC874 /* kazistUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDA6A52BB0C88700DFC874 /* kazistUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BBDA6962BB0C88700DFC874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BBDA67C2BB0C88600DFC874 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BBDA6832BB0C88600DFC874;
+			remoteInfo = kazist;
+		};
+		2BBDA6A02BB0C88700DFC874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BBDA67C2BB0C88600DFC874 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BBDA6832BB0C88600DFC874;
+			remoteInfo = kazist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BBDA6842BB0C88600DFC874 /* kazist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kazist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBDA6872BB0C88600DFC874 /* kazistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kazistApp.swift; sourceTree = "<group>"; };
+		2BBDA6892BB0C88600DFC874 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2BBDA68B2BB0C88700DFC874 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BBDA68D2BB0C88700DFC874 /* kazist.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = kazist.entitlements; sourceTree = "<group>"; };
+		2BBDA68F2BB0C88700DFC874 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2BBDA6952BB0C88700DFC874 /* kazistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kazistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBDA6992BB0C88700DFC874 /* kazistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kazistTests.swift; sourceTree = "<group>"; };
+		2BBDA69F2BB0C88700DFC874 /* kazistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kazistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBDA6A32BB0C88700DFC874 /* kazistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kazistUITests.swift; sourceTree = "<group>"; };
+		2BBDA6A52BB0C88700DFC874 /* kazistUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kazistUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BBDA6812BB0C88600DFC874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBDA6922BB0C88700DFC874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBDA69C2BB0C88700DFC874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BBDA67B2BB0C88600DFC874 = {
+			isa = PBXGroup;
+			children = (
+				2BBDA6862BB0C88600DFC874 /* kazist */,
+				2BBDA6982BB0C88700DFC874 /* kazistTests */,
+				2BBDA6A22BB0C88700DFC874 /* kazistUITests */,
+				2BBDA6852BB0C88600DFC874 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BBDA6852BB0C88600DFC874 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BBDA6842BB0C88600DFC874 /* kazist.app */,
+				2BBDA6952BB0C88700DFC874 /* kazistTests.xctest */,
+				2BBDA69F2BB0C88700DFC874 /* kazistUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BBDA6862BB0C88600DFC874 /* kazist */ = {
+			isa = PBXGroup;
+			children = (
+				2BBDA6872BB0C88600DFC874 /* kazistApp.swift */,
+				2BBDA6892BB0C88600DFC874 /* ContentView.swift */,
+				2BBDA68B2BB0C88700DFC874 /* Assets.xcassets */,
+				2BBDA68D2BB0C88700DFC874 /* kazist.entitlements */,
+				2BBDA68E2BB0C88700DFC874 /* Preview Content */,
+			);
+			path = kazist;
+			sourceTree = "<group>";
+		};
+		2BBDA68E2BB0C88700DFC874 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2BBDA68F2BB0C88700DFC874 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2BBDA6982BB0C88700DFC874 /* kazistTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BBDA6992BB0C88700DFC874 /* kazistTests.swift */,
+			);
+			path = kazistTests;
+			sourceTree = "<group>";
+		};
+		2BBDA6A22BB0C88700DFC874 /* kazistUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BBDA6A32BB0C88700DFC874 /* kazistUITests.swift */,
+				2BBDA6A52BB0C88700DFC874 /* kazistUITestsLaunchTests.swift */,
+			);
+			path = kazistUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BBDA6832BB0C88600DFC874 /* kazist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BBDA6A92BB0C88700DFC874 /* Build configuration list for PBXNativeTarget "kazist" */;
+			buildPhases = (
+				2BBDA6802BB0C88600DFC874 /* Sources */,
+				2BBDA6812BB0C88600DFC874 /* Frameworks */,
+				2BBDA6822BB0C88600DFC874 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kazist;
+			productName = kazist;
+			productReference = 2BBDA6842BB0C88600DFC874 /* kazist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BBDA6942BB0C88700DFC874 /* kazistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BBDA6AC2BB0C88700DFC874 /* Build configuration list for PBXNativeTarget "kazistTests" */;
+			buildPhases = (
+				2BBDA6912BB0C88700DFC874 /* Sources */,
+				2BBDA6922BB0C88700DFC874 /* Frameworks */,
+				2BBDA6932BB0C88700DFC874 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BBDA6972BB0C88700DFC874 /* PBXTargetDependency */,
+			);
+			name = kazistTests;
+			productName = kazistTests;
+			productReference = 2BBDA6952BB0C88700DFC874 /* kazistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BBDA69E2BB0C88700DFC874 /* kazistUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BBDA6AF2BB0C88700DFC874 /* Build configuration list for PBXNativeTarget "kazistUITests" */;
+			buildPhases = (
+				2BBDA69B2BB0C88700DFC874 /* Sources */,
+				2BBDA69C2BB0C88700DFC874 /* Frameworks */,
+				2BBDA69D2BB0C88700DFC874 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BBDA6A12BB0C88700DFC874 /* PBXTargetDependency */,
+			);
+			name = kazistUITests;
+			productName = kazistUITests;
+			productReference = 2BBDA69F2BB0C88700DFC874 /* kazistUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BBDA67C2BB0C88600DFC874 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					2BBDA6832BB0C88600DFC874 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					2BBDA6942BB0C88700DFC874 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 2BBDA6832BB0C88600DFC874;
+					};
+					2BBDA69E2BB0C88700DFC874 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 2BBDA6832BB0C88600DFC874;
+					};
+				};
+			};
+			buildConfigurationList = 2BBDA67F2BB0C88600DFC874 /* Build configuration list for PBXProject "kazist" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BBDA67B2BB0C88600DFC874;
+			productRefGroup = 2BBDA6852BB0C88600DFC874 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BBDA6832BB0C88600DFC874 /* kazist */,
+				2BBDA6942BB0C88700DFC874 /* kazistTests */,
+				2BBDA69E2BB0C88700DFC874 /* kazistUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BBDA6822BB0C88600DFC874 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBDA6902BB0C88700DFC874 /* Preview Assets.xcassets in Resources */,
+				2BBDA68C2BB0C88700DFC874 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBDA6932BB0C88700DFC874 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBDA69D2BB0C88700DFC874 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BBDA6802BB0C88600DFC874 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBDA68A2BB0C88600DFC874 /* ContentView.swift in Sources */,
+				2BBDA6882BB0C88600DFC874 /* kazistApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBDA6912BB0C88700DFC874 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBDA69A2BB0C88700DFC874 /* kazistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBDA69B2BB0C88700DFC874 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBDA6A62BB0C88700DFC874 /* kazistUITestsLaunchTests.swift in Sources */,
+				2BBDA6A42BB0C88700DFC874 /* kazistUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BBDA6972BB0C88700DFC874 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BBDA6832BB0C88600DFC874 /* kazist */;
+			targetProxy = 2BBDA6962BB0C88700DFC874 /* PBXContainerItemProxy */;
+		};
+		2BBDA6A12BB0C88700DFC874 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BBDA6832BB0C88600DFC874 /* kazist */;
+			targetProxy = 2BBDA6A02BB0C88700DFC874 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2BBDA6A72BB0C88700DFC874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BBDA6A82BB0C88700DFC874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2BBDA6AA2BB0C88700DFC874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = kazist/kazist.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kazist/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kazist.test.kazist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BBDA6AB2BB0C88700DFC874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = kazist/kazist.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kazist/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kazist.test.kazist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2BBDA6AD2BB0C88700DFC874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kazist.test.kazistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kazist.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kazist";
+			};
+			name = Debug;
+		};
+		2BBDA6AE2BB0C88700DFC874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kazist.test.kazistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kazist.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kazist";
+			};
+			name = Release;
+		};
+		2BBDA6B02BB0C88700DFC874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kazist.test.kazistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kazist;
+			};
+			name = Debug;
+		};
+		2BBDA6B12BB0C88700DFC874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kazist.test.kazistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kazist;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BBDA67F2BB0C88600DFC874 /* Build configuration list for PBXProject "kazist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBDA6A72BB0C88700DFC874 /* Debug */,
+				2BBDA6A82BB0C88700DFC874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BBDA6A92BB0C88700DFC874 /* Build configuration list for PBXNativeTarget "kazist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBDA6AA2BB0C88700DFC874 /* Debug */,
+				2BBDA6AB2BB0C88700DFC874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BBDA6AC2BB0C88700DFC874 /* Build configuration list for PBXNativeTarget "kazistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBDA6AD2BB0C88700DFC874 /* Debug */,
+				2BBDA6AE2BB0C88700DFC874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BBDA6AF2BB0C88700DFC874 /* Build configuration list for PBXNativeTarget "kazistUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBDA6B02BB0C88700DFC874 /* Debug */,
+				2BBDA6B12BB0C88700DFC874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BBDA67C2BB0C88600DFC874 /* Project object */;
+}
