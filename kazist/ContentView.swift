@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+=======
+//
+//  ContentView.swift
+//  kazist
+//
+//  Created by Динмухамед Джилкайдаров on 24.03.2024.
+//
+
+>>>>>>> 7c3f0d2e8418a6abec70c4b2b42a2bf4823ee5e1
 import SwiftUI
 
 @main
@@ -27,6 +37,10 @@ struct MainTabView: View {
 
 struct CourierView: View {
     var body: some View {
+<<<<<<< HEAD
+=======
+        // Здесь будет ваш код для регистрации курьера
+>>>>>>> 7c3f0d2e8418a6abec70c4b2b42a2bf4823ee5e1
         CourierRegistrationView()
     }
 }
@@ -36,7 +50,10 @@ struct CourierRegistrationView: View {
     @State private var email: String = ""
     @State private var phoneNumber: String = ""
     @State private var password: String = ""
+<<<<<<< HEAD
     @State private var isRegistered = false // Используется для контроля перехода
+=======
+>>>>>>> 7c3f0d2e8418a6abec70c4b2b42a2bf4823ee5e1
     
     var body: some View {
         Form {
@@ -46,6 +63,7 @@ struct CourierRegistrationView: View {
                 TextField("Номер телефона", text: $phoneNumber)
                 SecureField("Пароль", text: $password)
                 Button("Зарегистрироваться") {
+<<<<<<< HEAD
                     // Пример регистрации (здесь должна быть ваша логика)
                     self.isRegistered = true
                 }
@@ -54,6 +72,12 @@ struct CourierRegistrationView: View {
         .sheet(isPresented: $isRegistered) {
             CourierAdView() // Переход к добавлению объявления
         }
+=======
+                    // Здесь должен быть ваш код для регистрации
+                }
+            }
+        }
+>>>>>>> 7c3f0d2e8418a6abec70c4b2b42a2bf4823ee5e1
     }
 }
 
@@ -68,7 +92,10 @@ struct SenderRegistrationView: View {
     @State private var email: String = ""
     @State private var phoneNumber: String = ""
     @State private var password: String = ""
+<<<<<<< HEAD
     @State private var isRegistered = false // Используется для контроля перехода
+=======
+>>>>>>> 7c3f0d2e8418a6abec70c4b2b42a2bf4823ee5e1
     
     var body: some View {
         Form {
@@ -78,6 +105,7 @@ struct SenderRegistrationView: View {
                 TextField("Номер телефона", text: $phoneNumber)
                 SecureField("Пароль", text: $password)
                 Button("Зарегистрироваться") {
+<<<<<<< HEAD
                     // Пример регистрации (здесь должна быть ваша логика)
                     self.isRegistered = true
                 }
@@ -122,3 +150,13 @@ struct SenderAdView: View {
         }
     }
 }
+=======
+                    // Здесь должен быть ваш код для регистрации
+                }
+            }
+        }
+    }
+}
+
+
+>>>>>>> 7c3f0d2e8418a6abec70c4b2b42a2bf4823ee5e1
